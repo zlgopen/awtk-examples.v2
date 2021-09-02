@@ -17,3 +17,4 @@ bin/
 .sconsign.dblite
 .vscode
 build_web.py
+__pycache__

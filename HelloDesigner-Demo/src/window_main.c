@@ -1,6 +1,12 @@
 ﻿#include "awtk.h"
 extern ret_t application_init(void);
 static void init_children_widget(widget_t* widget);
+
+extern ret_t open_basic_window(void);
+extern ret_t open_background_window(void);
+extern ret_t open_listview_window(void);
+extern ret_t open_animator_window(void);
+
 /**
  * 中英文互译
  */
